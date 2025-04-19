@@ -1,0 +1,35 @@
+site_name: Calculation Docs
+
+theme:
+  name: material
+
+plugins:
+  - search
+  - mkdocstrings
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Overview: getting-started/overview.md
+      - Installation: getting-started/installation.md
+      - Quick Start: getting-started/quick-start.md
+  - User Guide:
+      - Overview: user-guide/overview.md
+      - Configuration: user-guide/configuration.md
+      - Usage: user-guide/usage.md
+  - API Reference:
+      - Overview: api-reference/overview.md
+      - Classes: api-reference/classes.md
+      - Functions: api-reference/functions.md
+  - Examples:
+      - Basic Example: examples/basic-example.md
+      - Advanced Example: examples/advanced-example.md
+  - FAQ:
+      - Common Issues: faq/common-issues.md
+      - Troubleshooting: faq/troubleshooting.md
+  - Contributing:
+      - Overview: contributing/overview.md
+      - Code Style: contributing/code-style.md
+      - Testing: contributing/testing.md
+  - Changelog: changelog.md
+  - License: license.md
